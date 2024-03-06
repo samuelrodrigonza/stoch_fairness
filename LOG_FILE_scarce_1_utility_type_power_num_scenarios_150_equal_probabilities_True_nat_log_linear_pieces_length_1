@@ -1,0 +1,39 @@
+
+Gurobi 9.1.2 (win64) logging started Tue Mar  5 20:34:57 2024
+
+Changed value of parameter LogFile to LOG_FILE_scarce_1_utility_type_power_num_scenarios_150_equal_probabilities_True_nat_log_linear_pieces_length_1
+   Prev:   Default: 
+Gurobi Optimizer version 9.1.2 build v9.1.2rc0 (win64)
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 155379 rows, 85044 columns and 407358 nonzeros
+Model fingerprint: 0x93dd0449
+Model has 13350 general constraints
+Variable types: 84543 continuous, 501 integer (501 binary)
+Coefficient statistics:
+  Matrix range     [7e-06, 4e+02]
+  Objective range  [7e-03, 7e-03]
+  Bounds range     [2e-02, 3e+02]
+  RHS range        [2e-01, 7e+02]
+
+Warning: Completing partial solution with 501 unfixed non-continuous variables out of 501
+User MIP start produced solution with objective 125.859 (0.34s)
+Loaded user MIP start with objective 125.859
+
+Presolve added 0 rows and 451534 columns
+Presolve removed 33100 rows and 0 columns
+Presolve time: 2.62s
+Presolved: 122279 rows, 536578 columns, 1681108 nonzeros
+Presolved model has 12600 SOS constraint(s)
+Variable types: 536193 continuous, 385 integer (385 binary)
+
+Explored 0 nodes (0 simplex iterations) in 6.33 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 125.859 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.258592910811e+02, best bound 1.258592910811e+02, gap 0.0000%

@@ -1,0 +1,7 @@
+scarce_0.5_utility_type_power_num_scenarios_150_equal_probabilities_True_nat_log_linear_pieces_length_1
+OF_EEVS: 108.6913383455181
+OF_WS: 112.64059185260967
+OF_DE: 112.61670671257448
+Expectation of the Expected Value Solution (EVVS): 108.6913383455181
+Expected Value of Perfect Information (EVPI): 0.02388514003519049
+Value of the Stochastic Solution (VSS): 3.925368367056379
